@@ -1,0 +1,103 @@
+@charaset "UTF-8";
+body {
+  font-family: system-ui;
+  background: #54b1b1;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #f73130;
+}
+
+ul {
+  margin: 0;
+}
+
+h1 {
+  top: 30px;
+  margin-top: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.hero-header {
+  padding: 0;
+  margin: 0;
+  height: 45vw;
+  background-image: url('./img/hero.png');
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero-item1 {
+  height: 45vw;
+  background-image: url('./img/concept-image.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.hero-item2 {
+  height: 45vw;
+  background-image: url('./img/promise-image.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.news {
+  background-color: #ff8d6e;
+}
+
+.concept {
+  background-color: pink;
+}
+
+.news {
+  background-color: #ff8d6e;
+}
+
+.concept {
+  background-color: pink;
+}
+
+.system {
+  background-color: blue;
+}
+
+.system {
+  background-color: blue;
+}
+
+.member {
+  background-color: orange;
+}
+
+.next {
+  background-color: green;
+}
+
+footer {
+  background-color: purple;
+}
+
+div {
+  padding: 30px;
+}

@@ -1,0 +1,103 @@
+@charaset "UTF-8";
+
+body {
+  font-family: system-ui;
+  color: white;
+  text-align: center;
+  margin: 0;
+  background-color: #54b1b1; /* 背景色 */
+  background-image: url("/img/hero.png"); /* 画像 */
+  background-size: contain; /* 全画面 */
+  background-attachment: fixed; /* 固定 */
+  background-position: center center; /* 縦横中央 */
+}
+
+nav {
+  margin-top: 2em;
+}
+
+header {
+  position: fixed; /* 要素の位置を固定する */
+  top: 0; /* 基準の位置を画面の一番上に指定する */
+  left: 0; /* 基準の位置を画面の一番左に指定する */
+  margin: 0; /* 要素の余白を０にする */
+  padding: 0; /* 要素内側の余白を指定する */
+  width: 100%; /* 幅を指定する */
+  background: #f73130; /* 背景色を指定する */
+  color: white; /* フォントの色を指定する */
+}
+header nav {
+  height: 4em;
+}
+header ul {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 15px;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.manga-whitebox {
+  background-color: white;
+  height: 0.5em;
+}
+.manga-bluebox {
+  background-color: blue;
+  height: 1em;
+}
+
+.hero-header {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+.news {
+  background-color: #ff8d6e;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.concept {
+  background-color: pink;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.system {
+  background-color: #ff8d6e;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.member {
+  background-color: orange;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.next-contents {
+  background-color: #ff8d6e;
+  overflow: hidden;
+  height: 100vh;
+}
+
+footer {
+  background-color: #f73130;
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
